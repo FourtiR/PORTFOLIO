@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="portfolio.css">
+    <script> src = "slider.js"</script>
+    <title>Mon Portfolio</title>
+</head>
+<body>
+    <div class ="header">
+        <nav>
+            <h1>Mon Portfolio</h1>
+        </nav>
+        <p> Bienvenue sur mon Portfolio<br />
+        Sommaire  </p>
+
+        <p> Première partie</p><br>
+        <ul>
+            <li>A)Présentation</li>
+            <li>B)CV</li>
+            <li>C)Lettre de motivation</li>
+            <p> <a href="stage.html" title="Clique ici ^^">Stage</a>?<br />
+            </p>
+            <p>
+                Aller directemnet à : <br />
+                <a href="#stage"> Les stages</a>
+                <a href="#CV"> Le CV</a>
+                <a href="#Projets"> Mes Projets</a>  
+            </p>
+            <h2 id="stage"> Les stages</h2>
+            <p> Stage de 1er année</p>
+            <p> Stage de 2 eme année</p>
+   
+
+            <h2 id="CV"> Le Curruluim Vitae</h2>
+            <p> Mon CV</p>
+         
+    
+
+            
+
+
+
+        </ul>
+</body>
+</html>
