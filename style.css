@@ -16,6 +16,9 @@ html {
           list-style: none;
 }
 
+
+
+
 body {
   margin: 0;
   font-family: "Princedown Bl";
@@ -40,7 +43,7 @@ body {
   width: auto;
   padding: 16px;
   margin-top: -22px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -90,6 +93,9 @@ body {
   }
 
 
+
+
+
 section {
   padding: 90px 15px;
 }
@@ -99,6 +105,8 @@ section {
   display: block;
   margin: 0 auto;
 }
+
+
 
 p {
   font-size: 18px;
@@ -113,6 +121,10 @@ p {
   color: #d78e10;
 }
 
+
+
+
+
 h2 {
   font-size: 36px;
   margin: 5px 0 10px;
@@ -125,6 +137,8 @@ h2 {
     font-weight: 700;
   }
 }
+
+
 .cv {
   background-color: #d78e10;
   border: none;
