@@ -23,13 +23,13 @@ body {
   margin: 0;
   font-family: "Princedown Bl";
   position: relative;
-  background: #e6e6e6;
+  background: #FFF;
   }
   .showSlider {
   display: none
   }
   .showSlider img {
-  width: 100%;
+  width: 80%;
   }
   .container {
   max-width: 400px;
@@ -41,11 +41,11 @@ body {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: -96px;
   margin-top: -22px;
   color: black;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 45px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   }
@@ -54,7 +54,7 @@ body {
   border-radius: 3px 0 0 3px;
   }
   .left:hover, .right:hover {
-  background-color: rgba(115, 115, 115, 0.8);
+  background-color: #ff9800;
   }
   .contentBook {
   color: #eff5d4;
@@ -66,7 +66,7 @@ body {
   text-align: center;
   }
   .active {
-  background-color: #717171;
+  background-color: #ff9800;
   }
   /* Fading animation */
   .fade {
@@ -133,7 +133,7 @@ h2 {
 @media screen and (min-width: 768px) {
   h2 {
     font-size: 70px;
-    color: #848484;
+    color: #9f9d94;
     font-weight: 700;
   }
 }
@@ -304,7 +304,7 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  background: url("./public/svg/soap.svg");
+  background: url("public/logo.png");
   background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
@@ -325,7 +325,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .banner .banner--content .designation {
-    font-size: 70px;
+    font-size: 120px;
   }
 }
 
@@ -340,13 +340,13 @@ img {
 }
 
 .promo {
-  background-color: #DEF0FF;
+  background-color: #9f9d94;
 }
 
 .promo .content h2 {
   font-size: 36px;
   font-weight: 300;
-  color: rgb(145, 75, 75);
+  color: #d78e10;
   text-shadow: 0 1px 2px #FFF;
 }
 
@@ -430,8 +430,8 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #ffab00;
-  background-image: linear-gradient(315deg, #ffab00 0%, #647dee 74%);
-  height: 60vh;
+  background-image: linear-gradient(315deg, #ffab00 0%, #808080 74%);
+  height: 70vh;
 
 }
 
@@ -444,7 +444,7 @@ img {
   border: 5px solid black;
   height: 400px;
   width: 400px;
-  margin: 30px;
+  margin: 60px;
   border-radius: 20px;
 
 
@@ -456,7 +456,7 @@ img {
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   #competances .competances--content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -470,20 +470,8 @@ img {
   }
 }
 
-#competances .competances--content .left {
- 
-}
 
-#competances .competances--content .left h2 {
-  font-size: 36px;
-  color: rgb(35, 3, 3);
-}
-
-#competances .competances--content .right {
-
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   #competances .competances--content .right {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -503,8 +491,8 @@ img {
   text-decoration: none;
   margin-bottom: 30px;
   border-width: 5px 5px 5px 5px;
-  -o-border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
-     border-image: linear-gradient(45deg, #ff9800 0%, purple 100%);
+  -o-border-image: linear-gradient(45deg, #ff9800 0%, black 100%);
+     border-image: linear-gradient(45deg, #ff9800 0%, black 100%);
   border-image-slice: 9;
   border-style: solid;
 }
@@ -586,7 +574,7 @@ img {
 }
 
 #service .service--content .item a:hover {
-  background-color:#000000;
+  background-color:#808080;
   background-image: linear-gradient(315deg, #000 0%, #ffab00 74%);
   border: #000;
 }
@@ -596,7 +584,7 @@ img {
 }
 #portfolio {
   z-index: 1;
-  background-color: #000;
+  background-color: #808080;
   background-image: linear-gradient(147deg, #ffab00 0%, #0000 74%);
 }
 
@@ -658,11 +646,11 @@ img {
 #Presentation h2 {
   max-width: 1200px;
   display: block;
-  margin: 0 auto 30px auto;
+  margin: 0 auto 50px auto;
 }
 
 #Presentation .Presentation--content {
-  display: block;
+  display:flex ;
 }
 
 @media screen and (min-width: 768px) {
@@ -675,9 +663,9 @@ img {
             justify-content: space-between;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -769,7 +757,7 @@ blockquote p::after {
   background: #FFF;
 }
 #contact .contact-detail, #contact address {
-  max-width: 800px;
+  max-width: 1000px;
   display: block;
   margin: 0 auto;
 }
@@ -782,19 +770,19 @@ blockquote p::after {
   text-decoration: none;
 }
 .site-footer {
-  background-color: #FFF;
-  padding: 90px 15px 30px;
+  background-color: #ff9800;
+  padding: 50px 15px 10px;
 }
 
 .site-footer .site-footer--content {
-  max-width: 1600px;
+  max-width: 2000px;
   display: block;
   margin: 0 auto;
   color: #FFF;
   border-bottom: 1px solid #0000004D;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 500px) {
   .site-footer .site-footer--content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -802,9 +790,9 @@ blockquote p::after {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -892,7 +880,7 @@ blockquote p::after {
 
 .item {
 	position: relative;
-    width: 320px;
+    width: 400px;
     height: 240px;
 }
 
@@ -900,4 +888,11 @@ blockquote p::after {
 	position: absolute;
     bottom: 0;
     left: 0;
+}
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+
+a[href^="tel"]::before {
+  content: "📞 ";
 }
