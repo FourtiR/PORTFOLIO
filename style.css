@@ -205,7 +205,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .site-header .nav-logo a img {
-    max-width: 34px;
+    max-width: 75px;
     height: auto;
   }
 }
@@ -347,7 +347,7 @@ img {
   font-size: 36px;
   font-weight: 300;
   color: #d78e10;
-  text-shadow: 0 1px 2px #FFF;
+  text-shadow: 0 5px 2px #FFF;
 }
 
 @media screen and (min-width: 768px) {
@@ -423,6 +423,7 @@ img {
         -ms-grid-row-align: stretch;
         align-self: stretch;
   }
+
 }
 #competances {
   display: flex;
@@ -430,7 +431,7 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #ffab00;
-  background-image: linear-gradient(315deg, #ffab00 0%, #808080 74%);
+  background-image: linear-gradient(315deg, #ffab00 0%, #d78e10 74%)
   height: 70vh;
 
 }
@@ -439,13 +440,14 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   background-color: transparent;
   justify-content: center;
   border: 5px solid black;
-  height: 400px;
-  width: 400px;
+  height: 600px;
+  width: 600px;
   margin: 60px;
-  border-radius: 20px;
+  border-radius: 80px;
 
 
 }
@@ -574,7 +576,7 @@ img {
 }
 
 #service .service--content .item a:hover {
-  background-color:#808080;
+  background-color:#d78e10;
   background-image: linear-gradient(315deg, #000 0%, #ffab00 74%);
   border: #000;
 }
@@ -584,7 +586,7 @@ img {
 }
 #portfolio {
   z-index: 1;
-  background-color: #808080;
+  background-color: #d78e10;
   background-image: linear-gradient(147deg, #ffab00 0%, #0000 74%);
 }
 
@@ -798,7 +800,7 @@ blockquote p::after {
 
 .site-footer .site-footer--content .footer-left {
   -ms-flex-preferred-size: 55%;
-      flex-basis: 55%;
+      flex-basis: %;
 }
 
 .site-footer .site-footer--content .footer-left p {
@@ -852,8 +854,8 @@ blockquote p::after {
 }
 
 .social-share a {
-  width: 50px;
-  height: 50px;
+  width: 500px;
+  height: 500px;
   background-color: #DEF0FF;
   border: 1px solid #ffab00;
   -webkit-transition: background-color 0.8s ease-in;
@@ -867,7 +869,7 @@ blockquote p::after {
 }
 
 .social-share a img {
-  width: 30px;
+  width: 300px;
   height: auto;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
