@@ -432,7 +432,7 @@ img {
   justify-content: center;
   background-color: #ffab00;
   background-image: linear-gradient(315deg, #ffab00 0%, #d78e10 74%)
-  height: 70vh;
+  height : 70vh;
 
 }
 
@@ -509,6 +509,14 @@ img {
   max-width: 100px;
   height: auto;
 }
+
+
+
+
+
+
+
+
 
 #service .service--content {
   display: block;
@@ -773,18 +781,18 @@ blockquote p::after {
 }
 .site-footer {
   background-color: #ff9800;
-  padding: 50px 15px 10px;
+  padding: 90px 15px 30px;
 }
 
 .site-footer .site-footer--content {
-  max-width: 2000px;
+  max-width: 1600px;
   display: block;
   margin: 0 auto;
   color: #FFF;
   border-bottom: 1px solid #0000004D;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 768px) {
   .site-footer .site-footer--content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -800,7 +808,7 @@ blockquote p::after {
 
 .site-footer .site-footer--content .footer-left {
   -ms-flex-preferred-size: 55%;
-      flex-basis: %;
+      flex-basis: 55%;
 }
 
 .site-footer .site-footer--content .footer-left p {
