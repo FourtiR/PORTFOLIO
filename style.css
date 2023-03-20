@@ -1,6 +1,5 @@
 @font-face {
-  font-family: "Princedown Bl";
-  src: url("font/pricedown.otf") format("opentype");
+  font-family: "Gill Sans", sans-serif;
  }
 
 
@@ -21,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  font-family: "Princedown Bl";
+  font-family: "Gill Sans";
   position: relative;
   background: #FFF;
   }
@@ -162,7 +161,7 @@ img {
 }
 .site-header {
   z-index: 10;
-  font-family: "Princedown Bl";
+  font-family: "Gill Sans";
   src: url("font/pricedown.otf") format("opentype");
   display: -webkit-box;
   display: -ms-flexbox;
@@ -317,7 +316,7 @@ img {
 .banner .banner--content .designation {
   color: rgba(255, 255, 255, 0.7);
   text-transform: uppercase;
-  font-family: "Princedown Bl";
+  font-family: "Gill Sans";
   font-weight: 700;
   font-size: 36px;
   margin: 0;
@@ -431,23 +430,23 @@ img {
   align-items: center;
   justify-content: center;
   background-color: #ffab00;
-  background-image: linear-gradient(315deg, #ffab00 0%, #d78e10 74%)
+  background-image: linear-gradient(315deg, #ffab00 0%, #d78e10 74%);
   height : 70vh;
 
 }
 
 #competances .carre {
   display: flex;
-  flex-direction: column;
+  flex-direction: column  ;
   align-items: center;
   text-align: center;
   background-color: transparent;
   justify-content: center;
-  border: 5px solid black;
+  border: 5px solid black;à
   height: 600px;
   width: 600px;
   margin: 60px;
-  border-radius: 80px;
+  border-radius: 90px;
 
 
 }
@@ -491,7 +490,7 @@ img {
   border: 1px solid #FFF;
   padding: 30px 15px;
   text-decoration: none;
-  margin-bottom: 30px;
+  margin-bottom: 300px;
   border-width: 5px 5px 5px 5px;
   -o-border-image: linear-gradient(45deg, #ff9800 0%, black 100%);
      border-image: linear-gradient(45deg, #ff9800 0%, black 100%);
@@ -767,8 +766,8 @@ blockquote p::after {
   background: #FFF;
 }
 #contact .contact-detail, #contact address {
-  max-width: 1000px;
-  display: block;
+  width: 100%;
+  
   margin: 0 auto;
 }
 
@@ -899,10 +898,18 @@ blockquote p::after {
     bottom: 0;
     left: 0;
 }
-a[href^="mailto"]::before {
+a[href="mailto"]::before {
   content: "📧 ";
 }
 
-a[href^="tel"]::before {
+a[href ="tel"]::before {
   content: "📞 ";
+}
+
+.test
+{
+height:  200px;
+background-color :red;
+margin: 0 auto;
+
 }
