@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-family: "Gill Sans";
   position: relative;
-  background: #FFF;
+  background:#e4e4e4 ;
   }
   .showSlider {
   display: none
@@ -176,7 +176,7 @@ img {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #FFF;
+  background-color: black;
 }
 
 @media screen and (min-width: 1250px) {
@@ -218,7 +218,7 @@ img {
 @media screen and (min-width: 1250px) {
   .site-header .nav-links {
     display: block;
-    background-color: #FFF;
+    background-color: black;
   }
 }
 
@@ -293,7 +293,7 @@ img {
 .banner {
   padding: 90px 15px;
   background-color: #9f9d94;
-  background-image: linear-gradient(147deg, #d78e10 0%, #000000 74%);
+  background-image: linear-gradient(147deg, #ff9800 0%, black 94%);
   text-align: center;
   color: #FFFFFF;
 }
@@ -303,8 +303,7 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-  background: url("public/logo.png");
-  background-repeat: no-repeat;
+ background-repeat: no-repeat;
   background-position: top right;
   background-size: contain;
 }
@@ -424,7 +423,7 @@ img {
   }
 
 }
-#competances {
+#compétences {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -435,7 +434,7 @@ img {
 
 }
 
-#competances .carre {
+#compétences .carre {
   display: flex;
   flex-direction: column  ;
   align-items: center;
@@ -452,13 +451,13 @@ img {
 }
 
 
-#competances .competances--content {
+#compétences .compétences--content {
   display: flex;
   flex-direction: column;
 }
 
 @media screen and (min-width: 500px) {
-  #competances .competances--content {
+  #compétences .compétences--content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -473,7 +472,7 @@ img {
 
 
 @media screen and (min-width: 500px) {
-  #competances .competances--content .right {
+  #compétences .compétences--content .right {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -483,7 +482,7 @@ img {
   }
 }
 
-#competances .competances--content .right .item {
+#compétences .compétences--content .right .item {
   -ms-flex-preferred-size: 32%;
       flex-basis: 32%;
   text-align: center;
@@ -499,12 +498,12 @@ img {
 }
 
 @media screen and (min-width: 768px) {
-  #competances .competances--content .right .item {
+  #compétences .compétences--content .right .item {
     margin-bottom: 0;
   }
 }
 
-#competances .competances--content .right .item img {
+#compétences .compétences--content .right .item img {
   max-width: 100px;
   height: auto;
 }
@@ -593,12 +592,12 @@ img {
 }
 #portfolio {
   z-index: 1;
-  background-color: #d78e10;
-  background-image: linear-gradient(147deg, #ffab00 0%, #0000 74%);
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #ffab00 0%, #);
 }
 
 #portfolio h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   display: block;
   margin-bottom: 30px;
 }
@@ -618,7 +617,7 @@ img {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   position: relative;
-  background-color: #cb2027;
+  background-color: #000000;
   -webkit-transition: all 0.8s ease-in-out;
   transition: all 0.8s ease-in-out;
 }
@@ -689,7 +688,7 @@ blockquote {
 
 blockquote p {
   padding: 15px;
-  background: #3fc70d;
+  background: #000000;
   border-radius: 5px;
 }
 
@@ -701,7 +700,7 @@ blockquote p::after {
   content: '\201D';
 }
 #pricing {
-  background-color: #DEF0FF;
+  background-color: #def0ff37;
 }
 
 #pricing .pricing--content {
@@ -913,3 +912,7 @@ background-color :red;
 margin: 0 auto;
 
 }
+
+
+/*Début CSS Parking.html*/
+
