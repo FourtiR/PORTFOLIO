@@ -441,7 +441,6 @@ img {
   text-align: center;
   background-color: transparent;
   justify-content: center;
-  border: 5px solid black;à
   height: 600px;
   width: 600px;
   margin: 60px;
@@ -913,6 +912,7 @@ margin: 0 auto;
 
 }
 
+.cv .about-container
 
 /*Début CSS Parking.html*/
 
