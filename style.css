@@ -100,7 +100,7 @@ section {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 12000px;
   display: block;
   margin: 0 auto;
 }
@@ -109,7 +109,7 @@ section {
 
 p {
   font-size: 18px;
-  margin: 5px 0 10px;
+  margin: 5px 1 10px;
 }
 
 .bold {
@@ -345,7 +345,7 @@ img {
   font-size: 36px;
   font-weight: 300;
   color: #d78e10;
-  text-shadow: 0 5px 2px #FFF;
+  text-shadow: 0 5px 2px #fdfdfd;
 }
 
 @media screen and (min-width: 768px) {
@@ -355,7 +355,7 @@ img {
 }
 
 .promo .content h2 span.orange {
-  font-weight: 700;
+  font-weight: 70;
 }
 
 .promo .content p {
@@ -886,15 +886,15 @@ blockquote p::after {
 }
 
 .item {
-	position: relative;
-    width: 400px;
+	position: center;
+    width: 1200px;
     height: 240px;
 }
 
 .item .r {
 	position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 10;
+    left: 10;
 }
 a[href="mailto"]::before {
   content: "📧 ";
