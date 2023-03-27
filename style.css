@@ -96,20 +96,38 @@ body {
 
 
 section {
-  padding: 90px 15px;
+  max-width: 10000px;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+}
+figure {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .content {
-  max-width: 12000px;
+  max-width: 1000px;
   display: block;
   margin: 0 auto;
+  justify-content: center;
 }
 
 
 
 p {
-  font-size: 18px;
+  font-size: 38px;
   margin: 5px 1 10px;
+  justify-content: center;
+}
+
+.BTS{
+   color: #d78e10;
+   font-size : 30px;
+   justify-content: center;
+   margin: 100px 0 10px;
 }
 
 .bold {
@@ -122,19 +140,17 @@ p {
 
 
 
-
-
 h2 {
-  font-size: 36px;
-  margin: 5px 0 10px;
-}
-
-@media screen and (min-width: 768px) {
-  h2 {
     font-size: 70px;
     color: #9f9d94;
     font-weight: 700;
+    margin: 5px 0 10px;
   }
+h3 {
+    font-size : 40px;
+    color: #9f9d94;
+    font-weight : 700;
+    margin: 5px 0 10px;
 }
 
 
@@ -151,10 +167,7 @@ h2 {
   border-radius: 0rem;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .center {
   text-align: center;
@@ -430,7 +443,7 @@ img {
   justify-content: center;
   background-color: #ffab00;
   background-image: linear-gradient(315deg, #ffab00 0%, #d78e10 74%);
-  height : 70vh;
+  height : 80vh;
 
 }
 
@@ -453,11 +466,7 @@ img {
 #compétences .compétences--content {
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 500px) {
-  #compétences .compétences--content {
-    display: -webkit-box;
+   display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
@@ -466,8 +475,9 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-  }
 }
+
+
 
 
 @media screen and (min-width: 500px) {
@@ -494,13 +504,9 @@ img {
      border-image: linear-gradient(45deg, #ff9800 0%, black 100%);
   border-image-slice: 9;
   border-style: solid;
+  margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-  #compétences .compétences--content .right .item {
-    margin-bottom: 0;
-  }
-}
 
 #compétences .compétences--content .right .item img {
   max-width: 100px;
@@ -509,26 +515,16 @@ img {
 
 
 
-
-
-
-
-
-
-#service .service--content {
-  display: block;
-}
-
-@media screen and (min-width: 768px) {
   #service .service--content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    display: block;
   }
-}
+
 
 #service .service--content .item {
   -ms-flex-preferred-size: 32%;
@@ -539,13 +535,10 @@ img {
   margin-bottom: 30px;
   -webkit-transition: background-color 0.8s ease-in;
   transition: background-color 0.8s ease-in;
+  margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-  #service .service--content .item {
-    margin-bottom: 0;
-  }
-}
+
 
 #service .service--content .item h3 {
   text-transform: uppercase;
@@ -598,7 +591,7 @@ img {
 #portfolio h2 {
   color: rgb(255, 255, 255);
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 #portfolio .portfolio--content {
@@ -622,7 +615,7 @@ img {
 }
 
 #portfolio .portfolio--content .item h3 {
-  color: #FFF;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   position: absolute;
@@ -656,11 +649,7 @@ img {
   margin: 0 auto 50px auto;
 }
 
-#Presentation .Presentation--content {
-  display:flex ;
-}
 
-@media screen and (min-width: 768px) {
   #Presentation .Presentation--content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -671,8 +660,9 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+     -ms-flex-align: center;
+     align-items: center;
+      display:flex ;
   }
 }
 
@@ -702,14 +692,11 @@ blockquote p::after {
   background-color: #def0ff37;
 }
 
-#pricing .pricing--content {
-  display: block;
-  max-width: 1600px;
-  margin: 0 auto;
-}
 
-@media screen and (min-width: 768px) {
-  #pricing .pricing--content {
+#pricing .pricing--content {
+    display: block;
+    max-width: 1600px;
+    margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -717,7 +704,7 @@ blockquote p::after {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-}
+
 
 #pricing .pricing--content .item {
   -ms-flex-preferred-size: 32%;
@@ -726,13 +713,9 @@ blockquote p::after {
   border-radius: 3px;
   padding: 20px 10px 30px;
   margin-bottom: 30px;
+  margin-bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
-  #pricing .pricing--content .item {
-    margin-bottom: 0;
-  }
-}
 
 #pricing .pricing--content .item .price {
   font-size: 36px;
@@ -891,28 +874,30 @@ blockquote p::after {
     height: 240px;
 }
 
-.item .r {
+.item .r  {
 	position: absolute;
     bottom: 10;
     left: 10;
 }
-a[href="mailto"]::before {
-  content: "📧 ";
+a[href^='mailto']::before {
+  content: '📧 ';
 }
 
-a[href ="tel"]::before {
-  content: "📞 ";
+a[href^='tel']::before {
+  content: '📞 ';
 }
 
-.test
-{
-height:  200px;
-background-color :red;
-margin: 0 auto;
+
+.fefe {
+  max-width: 100%;
+  height: auto;
+}
+.imagev{
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
 
 }
 
-.cv .about-container
 
 /*Début CSS Parking.html*/
-

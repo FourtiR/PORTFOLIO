@@ -4,11 +4,13 @@
 	  <meta charset="UTF-8">
 	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="public/logo-jaune.ico" type="image/x-icon">
-		<link rel="icon" href="public/logo-jaune.ico" type="image/x-icon">
-		<title>Portfolio de Fourti Rayan</title>
+      <link rel="shortcut icon" href="public/logo-jaune.ico" type="image/x-icon">
+	  <link rel="icon" href="public/logo-jaune.ico" type="image/x-icon">
+	  <title>Portfolio de Fourti Rayan</title>
 	  <link rel="stylesheet" type="text/css" href="style.css">
 	  <meta property='og:title'content="Fourti Rayan -Portfolio" />
+	  <link rel="stylesheet" href="slider.css">
+      <script src="slider.js"></script>
 	</head>
 
 
@@ -48,46 +50,15 @@
 	  	<p>Dans ce Portfolio vous allez mieux me connaître</p>
 	</div>
 </section>
-	<body>
-		
-			<h2>Je maitrise</h2>	
-
-			<script src="script.js"></script>
-						<div class="container">
-							<div class="showSlider fade">
-								<img src="public/html.png"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/css.png" alt = "css"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/php.png" alt="php"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/sql.png" alt= "sql"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/word.png" alt= "sql"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/excel.png" alt= "sql"/>
-								<div class="contentBook"></div>
-							</div>
-							<div class="showSlider fade">
-								<img src="public/powerpoint.png" alt= "sql"/>
-								<div class="contentBook"></div>
-							</div>
-							<a class="left" onclick="nextSlide(-1)"></a>
-							<a class="right" onclick="nextSlide(1)"></a>
-						</div><!-- Flèches de navigation -->
-					</script>
+<body>
+		<h2>J'utilise</h2>	
+		<div id="slider">
+			<img src="public/css.png" alt="CSS" id="slide">
+			<div id="precedent" onclick="ChangeSlide(-1)"><</div>
+			<div id="suivant" onclick="ChangeSlide(1)">></div>
+		</div>
+			
 					
-	</body>
 
 
 
@@ -152,7 +123,7 @@
 			<div class="item">
 				<figure>
 					
-					<p>Le BTS SIO (Services Informatiques aux Organisations) est un diplôme reconnu par l’état de niveau BAC+2.
+					<p class="BTS">Le BTS SIO (Services Informatiques aux Organisations) est un diplôme reconnu par l’état de niveau BAC+2.
 						Il s’adresse à ceux qui souhaitent se former en deux ans aux métiers d’administrateur réseau ou de développeur pour intégrer directement le marché du travail ou continuer des études dans le domaine de l’informatique.
 						Il existe deux options bien distinctes, l’option SLAM et l’option SISR</p>
 					
@@ -160,7 +131,7 @@
 					
 				</figure>
 			</div><!-- item -->
-		<div class="item">
+			<div class="item">
 			<figure>
 
 				<h2>Les Options du BTS SIO</h2>
@@ -174,7 +145,7 @@
 	<section id="Veille"></section>
 	<div class="carre">
 		<h2>Veille Technologique</h2>
-		<h3><a href="veille.html"><img src="public/F40.PNG" alt="Veille"></a></h3>
+		<h3><a href="veille.html"><img class = "imagev" src="public/F40.PNG" alt="Veille"></a></h3>
 		</div>
 	
 
@@ -185,13 +156,13 @@
 	  <h2 class="center">Me CONTACTER</h2>
 	  <address>
 		<p>Email : <a href="mailto:rayanfourti06@gmail.com">rayanfourti06@gmail.com</a></p>
-		<p></p>Telephone: <a href="tel:+33767372118">+33767372118</a></p>
-		<p>Adresse: <a href= "ad"></a>10 rue des Pichets, Bagneux 92220<br>
-		  FRANCE.</p>
+		<p>Téléphone : <a href="tel:+33767372118">+33767372118</a></p>
+		<p>Adresse: <a href= "adress: "></a>10 rue des Pichets, Bagneux 92220 France</p>
 	  </address>
 	</div>
   </section>
 
+</body>
 
   
 
@@ -200,7 +171,7 @@
 	<div class="content site-footer--content">
 	  <div class="footer">
 		<center>
-			<img src="public/Capture.PNG" alt="Paysage_fefe" height="1300"width="1300">
+			<img class="fefe"src="public/Capture.PNG" alt="Paysage_fefe" height="1300"width="1300">
 		</center>
 	</div>
 	<div class="copyright-notice">
