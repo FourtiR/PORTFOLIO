@@ -565,13 +565,13 @@ h3 {
     opacity: 0.3;
 }
 
-#Presentation h2 {
+#GitHub h2 {
     max-width: 1200px;
     display: block;
     margin: 0px auto 50px;
 }
 
-#Presentation .Presentation--content {
+#GitHub .GitHub--content {
     -webkit-box-pack: justify;
     justify-content: space-between;
     flex-wrap: wrap;
