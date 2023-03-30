@@ -813,3 +813,25 @@ body {
     margin: auto;
 }
 
+#profil 
+{
+  padding-left: 3%;
+  background-color: rgb(255, 152, 0);
+  color: rgb(255, 152, 0);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#profil .competencet 
+ {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  background-color: rgb(255, 152, 0);
+  margin-top: 2vh;
+  word-spacing: 1%;
+  margin-bottom:2vh ;
+  width: 100%;
+ }
