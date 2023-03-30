@@ -112,6 +112,11 @@ p {
     justify-content: center;
     text-align: center ;
 }
+.personel{
+    font-size: 18px;
+    justify-content: center;
+    text-align: center ;  
+}
 
 .BTS {
     color: rgb(215, 142, 16);
@@ -741,3 +746,47 @@ a[href^="tel"]::before {
     justify-content: center;
 }
 
+/******************CSS DE PERSONNEL********************/
+
+body {
+    background-color: #000000;
+}
+.sectionp {
+    background-color: #ffd200;
+
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #888;
+}
+.yellow-blockp1 {
+    background-color: #ffd200;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.yellow-blockp2 {
+    background-color: #ffd200;
+    height: 200px;
+    margin-bottom: 300px;
+}
+.yellow-blockp3 {
+    background-color: #ffd200;
+    height: 200px;
+    margin-bottom: 300px;
+}
+.sectionp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MCD  {
+    display: block;
+    width: 40%;
+    margin: auto;
+}
+.arbrepersonel{
+    display: block;
+    width: 100%;
+    margin: auto;
+
+}
