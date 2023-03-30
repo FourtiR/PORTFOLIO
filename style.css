@@ -53,6 +53,14 @@ body {
 .left:hover, .right:hover {
     background-color: rgb(255, 152, 0);
 }
+#moi {
+    flex-basis: 40%;
+        background:linear-gradient(315deg, rgb(159, 157, 148) 0%, rgba(220, 220, 220, 0.8) 74%);
+
+    padding: 30px 15px;
+}
+
+
 
 .contentBook {
     color: rgb(239, 245, 212);
@@ -110,12 +118,19 @@ figure {
 p {
     font-size: 38px;
     justify-content: center;
-    text-align: center ;
+    text-align: center;
 }
-.personel{
+
+.personel {
     font-size: 18px;
     justify-content: center;
-    text-align: center ;  
+    text-align: center;
+}
+#PRÉSENTATION-BTS {
+    flex-basis: 40%;
+    background-image: linear-gradient(315deg, rgb(159, 157, 148) 0%, rgba(220, 220, 220, 0.8) 74%);
+    background-color: rgb(255, 255, 255);
+    padding: 30px 15px;
 }
 
 .BTS {
@@ -124,6 +139,7 @@ p {
     justify-content: center;
     margin: 100px 0px 10px;
 }
+
 
 .bold {
     font-weight: 700;
@@ -146,6 +162,13 @@ h3 {
     font-weight: 700;
     margin: 5px 0px 10px;
 }
+h4 {
+    font-size: 40px;
+    color: rgb(217, 181, 20);
+    font-weight: 700;
+    margin: 5px 0px 10px;
+}
+
 
 .cv {
     background-color: rgb(215, 142, 16);
@@ -284,7 +307,7 @@ h3 {
 .banner {
     padding: 90px 15px;
     background-color: rgb(159, 157, 148);
-    background-image: linear-gradient(147deg, rgb(255, 152, 0) 0%, black 94%);
+    background-image: linear-gradient(147deg, rgb(255, 152, 0) 0%, rgb(0, 0, 0) 94%);
     text-align: center;
     color: rgb(255, 255, 255);
 }
@@ -414,18 +437,15 @@ h3 {
     height: 80vh;
 }
 
-
-
 #Stage {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(255 255 255);
+    background-color: rgb(255, 255, 255);
     background-image: linear-gradient(315deg, rgb(159, 157, 148) 0%, rgba(220, 220, 220, 0.8) 74%);
     height: 80vh;
 }
-
 
 #service .service--content {
     -webkit-box-pack: justify;
@@ -471,12 +491,12 @@ h3 {
     letter-spacing: 1.3px;
     transition: all 0.8s ease-in-out 0s;
     background-color: rgb(255, 171, 0);
-    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0) 0%, rgb(255, 171, 0) 74%);
+    background-image: linear-gradient(315deg, rgba(70, 52, 52, 0) 0%, rgb(255, 171, 0) 74%);
 }
 
 #service .service--content .item a:hover {
     background-color: rgb(215, 142, 16);
-    background-image: linear-gradient(315deg, rgb(0, 0, 0) 0%, rgb(255, 171, 0) 74%);
+    background-image: linear-gradient(315deg, rgb(54, 36, 36) 0%, rgb(255, 171, 0) 74%);
     border: rgb(0, 0, 0);
 }
 
@@ -680,7 +700,6 @@ blockquote p::after {
 }
 
 .social-share {
-    display: none;
     -webkit-box-pack: center;
     justify-content: center;
     -webkit-box-align: center;
@@ -692,10 +711,8 @@ blockquote p::after {
     top: 50vh;
     left: 0px;
     transform: translateY(-50%);
-     display: flex;
+    display: flex;
 }
-
-
 
 .social-share a {
     width: 500px;
@@ -746,47 +763,51 @@ a[href^="tel"]::before {
     justify-content: center;
 }
 
-/******************CSS DE PERSONNEL********************/
-
 body {
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
 }
-.sectionp {
-    background-color: #ffd200;
 
+.sectionp {
+    background-color: rgb(255, 210, 0);
     margin: 20px;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #888;
+    box-shadow: rgb(136, 136, 136) 0px 0px 10px;
 }
+
 .yellow-blockp1 {
-    background-color: #ffd200;
+    background-color: rgb(255, 210, 0);
     height: 200px;
     margin-bottom: 20px;
 }
+
 .yellow-blockp2 {
-    background-color: #ffd200;
+    background-color: rgb(255, 210, 0);
     height: 200px;
     margin-bottom: 300px;
 }
+
 .yellow-blockp3 {
-    background-color: #ffd200;
+    background-color: rgb(255, 210, 0);
     height: 200px;
     margin-bottom: 300px;
 }
+
 .sectionp {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.MCD  {
+
+.MCD {
     display: block;
-    width: 40%;
+    width: 120%;
     margin: auto;
 }
-.arbrepersonel{
+
+.arbrepersonel {
     display: block;
     width: 100%;
     margin: auto;
-
 }
+
