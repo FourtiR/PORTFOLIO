@@ -1,11 +1,8 @@
-@font-face {
-}
-
 html {
     line-height: 1.15;
 }
 
-* {
+ {
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -15,7 +12,7 @@ body {
     margin: 0px;
     font-family: "Gill Sans";
     position: relative;
-    background: rgb(228, 228, 228);
+    background: black;
 }
 
 .showSlider {
@@ -53,14 +50,29 @@ body {
 .left:hover, .right:hover {
     background-color: rgb(255, 152, 0);
 }
+
 #moi {
     flex-basis: 40%;
-        background:linear-gradient(315deg, rgb(159, 157, 148) 0%, rgba(220, 220, 220, 0.8) 74%);
-
     padding: 30px 15px;
 }
 
+#profil {
+    padding-left: 3%;
+    background-color: rgb(255, 152, 0);
+    color: rgb(255, 152, 0);
+    display: flex;
+    flex-direction: column;
+}
 
+#profil .competencet {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    background-color: rgb(255, 152, 0);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 100%;
+}
 
 .contentBook {
     color: rgb(239, 245, 212);
@@ -104,14 +116,14 @@ body {
 figure {
     max-width: 10000px;
     display: block;
-    margin: 0px auto;
     justify-content: center;
+    margin: 100px 0px 10px;
 }
 
 .content {
     max-width: 1000px;
     display: block;
-    margin: 0px auto;
+    margin: 100px 0px 10px;
     justify-content: center;
 }
 
@@ -119,6 +131,7 @@ p {
     font-size: 38px;
     justify-content: center;
     text-align: center;
+    color: red;
 }
 
 .personel {
@@ -126,15 +139,15 @@ p {
     justify-content: center;
     text-align: center;
 }
-#PRÉSENTATION-BTS  {
+
+#PRÉSENTATION-BTS {
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 2em;
     text-align: center;
-    text-justify: auto;
     text-size-adjust: auto;
-    
-  }
+}
+
 .BTS {
     color: rgb(215, 142, 16);
     font-size: 30px;
@@ -142,6 +155,13 @@ p {
     margin: 100px 0px 10px;
 }
 
+li {
+    color: rgb(215, 142, 16);
+    font-size: 30px;
+    justify-content: center;
+    margin: 100px 0px 10px;
+    text-align: center;
+}
 
 .bold {
     font-weight: 700;
@@ -153,24 +173,27 @@ p {
 
 h2 {
     font-size: 70px;
-    color: rgb(159, 157, 148);
+    color: white;
     font-weight: 700;
     margin: 5px 0px 10px;
+    text-align: center;
 }
 
 h3 {
     font-size: 40px;
-    color: rgb(159, 157, 148);
     font-weight: 700;
     margin: 5px 0px 10px;
+    color: white;
+    text-align: center;
 }
+
 h4 {
     font-size: 40px;
     color: rgb(217, 181, 20);
     font-weight: 700;
     margin: 5px 0px 10px;
+    text-align: center;
 }
-
 
 .cv {
     background-color: rgb(215, 142, 16);
@@ -258,6 +281,7 @@ h4 {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
         flex-direction: row;
+        margin: 0px auto;
     }
 }
 
@@ -645,9 +669,6 @@ blockquote p::after {
 #contact address {
     width: 90%;
     margin: 0px auto;
-}
-
-#contact address {
     margin-top: 60px;
 }
 
@@ -660,11 +681,12 @@ blockquote p::after {
     padding: 90px 15px 30px;
     block-size: 600px;
     writing-mode: horizontal-tb;
+   
 }
 
 .site-footer--content {
     max-width: 1600px;
-    margin: 0px auto;
+     margin: 100px 0px 10px;
     color: rgb(255, 255, 255);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     display: flex;
@@ -674,67 +696,11 @@ blockquote p::after {
     align-items: center;
 }
 
-.footer-left {
-    flex-basis: 55%;
-}
-
-.footer-left p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: rgb(224, 224, 224);
-}
-
-.footer-right {
-    flex-basis: 40%;
-    text-align: right;
-}
-
-.site-footer--content a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-.copyright-notice {
+copyright-notice {
     padding-top: 20px;
     text-align: center;
     color: rgb(122, 122, 122);
     border-top: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.social-share {
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    position: fixed;
-    top: 50vh;
-    left: 0px;
-    transform: translateY(-50%);
-    display: flex;
-}
-
-.social-share a {
-    width: 500px;
-    height: 500px;
-    background-color: rgb(222, 240, 255);
-    border: 1px solid rgb(255, 171, 0);
-    transition: background-color 0.8s ease-in 0s;
-    display: flex;
-    -webkit-box-pack: center;
-    justify-content: center;
-}
-
-.social-share a img {
-    width: 300px;
-    height: auto;
-    align-self: center;
-}
-
-.social-share a:hover {
-    background-color: rgb(255, 171, 0);
 }
 
 .item {
@@ -763,10 +729,6 @@ a[href^="tel"]::before {
     max-width: 100%;
     height: auto;
     justify-content: center;
-}
-
-body {
-    background-color: rgb(0, 0, 0);
 }
 
 .sectionp {
@@ -813,25 +775,22 @@ body {
     margin: auto;
 }
 
-#profil 
-{
-  padding-left: 3%;
-  background-color: rgb(255, 152, 0);
-  color: rgb(255, 152, 0);
-  display: flex;
-  flex-direction: column;
+#veille {
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: black;
 }
 
+#veille .etape p {
+    padding-top: 5px;
+    text-align: center;
+}
 
-
-#profil .competencet 
- {
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-  background-color: rgb(255, 152, 0);
-  margin-top: 2vh;
-  word-spacing: 1%;
-  margin-bottom:2vh ;
-  width: 100%;
- }
+#veille .etape h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+#Veille-fibre{
+    display: flex;
+    justify-content: center;
+    }
