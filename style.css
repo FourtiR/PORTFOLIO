@@ -784,3 +784,9 @@ a[href^="tel"]
     display: flex;
     justify-content: center;
     }
+
+.facebook {
+    max-width: 80%;
+    height: auto;
+    justify-content: center;
+}
