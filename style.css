@@ -2,12 +2,6 @@ html {
     line-height: 1.15;
 }
 
- {
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-}
-
 body {
     margin: 0px;
     font-family: "Gill Sans";
@@ -712,13 +706,9 @@ copyright-notice {
     position: absolute;
 }
 
-a[href^="mailto"]::before {
-    content: "📧 ";
-}
+a[href^="mailto"]
 
-a[href^="tel"]::before {
-    content: "📞 ";
-}
+a[href^="tel"]
 
 .fefe {
     max-width: 100%;
@@ -765,7 +755,7 @@ a[href^="tel"]::before {
 
 .MCD {
     display: block;
-    width: 120%;
+    width: 100%;
     margin: auto;
 }
 
