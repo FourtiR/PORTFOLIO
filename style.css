@@ -673,9 +673,8 @@ blockquote p::after {
 .site-footer {
     background-color: rgb(255, 152, 0);
     padding: 90px 15px 30px;
-    block-size: 600px;
     writing-mode: horizontal-tb;
-   
+ 
 }
 
 .site-footer--content {
